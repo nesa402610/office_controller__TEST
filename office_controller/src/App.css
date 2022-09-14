@@ -1,7 +1,93 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+input, textarea, select {
+    border: solid 2px #e8e8e8;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+select {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 2rem;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.form__head {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.form__describe {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form__block__head {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: underline dashed;
+}
+.form__describe__subtitle {
+    display: flex;
+    flex-direction: column;
+    color: slategray;
+    font-size: .9rem;
+}
+textarea {
+    height: 10rem;
+}
+.form__checkbox {
+    display: flex;
+    gap: .5rem;
+}
+.linkInput {
+    width: 100%;
+}
+
+.courses__checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+.form__describe__block {
+    width: 100%;
+}
+.form__describe__el {
+    display: flex;
+    gap: .5rem;
+}
+.form__describe__fields {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8e8e8;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: .5rem;
+}
+.fields__el {
+    display: flex;
+    flex-direction: column;
 }
