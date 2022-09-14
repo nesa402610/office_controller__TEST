@@ -74,6 +74,9 @@ textarea {
 }
 .form__describe__block {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .form__describe__el {
     display: flex;
